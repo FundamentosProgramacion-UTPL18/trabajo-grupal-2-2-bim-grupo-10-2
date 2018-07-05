@@ -33,7 +33,7 @@ public class Principal {
         for (int i = 0; i < estudiantes1.length; i++) {
             estudiantes1[i].Imprimir_reporte();
         }
-        System.out.printf("***********************\n");
+        System.out.printf("*********************\n");
     }
 
 }
