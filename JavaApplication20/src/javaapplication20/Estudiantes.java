@@ -17,10 +17,12 @@ public class Estudiantes {
     double calificacion2;
     double promedio;
     public void Imprimir_reporte(){
+        System.out.printf("***********************\n");
         System.out.printf("%s %s",nombre,apellido);
         System.out.printf("Edad - %d\n", edad);
         System.out.printf("calificacion 1: %.2f\nCalificacion 2: %.2f\n",calificacion1,calificacion2);
         promedio=(calificacion1+calificacion2)/2;
         System.out.printf("Promedio: %.2f\n",promedio);
+        
     }
 }
